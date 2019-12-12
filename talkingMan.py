@@ -1,5 +1,5 @@
 import pyttsx3
-import speech_recognition as sr
+import speech_recognition as sr #you need to install this library
 whatCanYou = ['what you do','mebo what can you do','can you do','you do','what can you do for me','what else you can do for me','what can you do']
 stop = ['stop','quit','exit','cancel','bye','bye bye','tata','tata bye bye','tata bye','see you soon','bye see you soon','see you later','i will see you later','goodbye']
 talkingMan = pyttsx3.init()
@@ -37,3 +37,5 @@ while True:
 
 print("\n      Created by Rudra shah")
 print("talkingMan")
+
+#changing of code can lead to mis-behave of pythonProgramme
